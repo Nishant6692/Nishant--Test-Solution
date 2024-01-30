@@ -6,12 +6,12 @@ const students = [
 ];
 
 function getHighScorers(arr, threshold) {
-  const higherScoreNames = [];
+  const higherScorerNames = [];
   arr.forEach((objectInArrray, key) => {
     if (objectInArrray.score >= threshold) {
       higherScoreNames.push(objectInArrray.name);
     }
   });
-  return higherScoreNames;
+  return higherScorerNames;
 }
 console.log(getHighScorers(students, 70));
