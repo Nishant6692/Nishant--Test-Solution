@@ -9,7 +9,7 @@ function getHighScorers(arr, threshold) {
   const higherScorerNames = [];
   arr.forEach((objectInArrray, key) => {
     if (objectInArrray.score >= threshold) {
-      higherScoreNames.push(objectInArrray.name);
+      higherScorerNames.push(objectInArrray.name);
     }
   });
   return higherScorerNames;
